@@ -1,0 +1,27 @@
+Hue - Add a hue to a video using ffmpeg
+
+type ``vid hue --help`` to get help
+
+CLI Options:
+Usage:
+  vid hue [options] input_file
+
+Options:
+  input: Path to the input video file.
+  -o: Path to save the output video with the shake effect.
+  -st: Start time for the shake effect (in seconds).
+  -d: Duration for the shake effect (in seconds). Default 1
+  -l: Add lightening for the hue . Default False
+
+
+Examples:
+  1. vid hue --help`` to get help
+
+
+Examples:
+  1. vid hue --help to get help
+
+
+Examples:
+  1. vid hue input.mp4 -o output.mp4
+  2. vid hue input.mp4 --help
